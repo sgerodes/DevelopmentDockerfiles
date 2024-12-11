@@ -1,0 +1,6 @@
+**/*.ignore
+**/*.playground
+ignore/
+playground/
+*.env
+env.*
