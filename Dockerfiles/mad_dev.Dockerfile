@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     vim \
     python3 \
     python3-pip \
+    python3-dev \
     python3-venv \
     rustc \
     clang \
@@ -25,6 +26,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     pkg-config \
     libffi-dev \
     libpq-dev \
+    gcc \
     libssl-dev \
     libsqlite3-dev \
     libudev-dev \
