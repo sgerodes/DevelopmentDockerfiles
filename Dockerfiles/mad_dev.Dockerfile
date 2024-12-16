@@ -13,14 +13,17 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     gcc \
     git \
+    iproute2 \
+    iputils-ping \
+    language-pack-en \
     libffi-dev \
     libpq-dev \
     libsqlite3-dev \
     libssl-dev \
-    libssl-dev \
     libudev-dev \
     llvm \
     make \
+    nano \
     nodejs \
     npm \
     pkg-config \
@@ -30,7 +33,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-pip \
     python3-venv \
     rustc \
+    sudo \
+    tor \
+    tox \
     vim \
+    virtualenv \
     wget \
     zsh \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
