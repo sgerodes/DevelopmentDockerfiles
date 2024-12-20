@@ -24,6 +24,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     llvm \
     make \
     nano \
+    net-tools \
     nodejs \
     npm \
     pkg-config \
@@ -35,6 +36,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     rustc \
     sudo \
     tor \
+    tree \
     tox \
     vim \
     virtualenv \
