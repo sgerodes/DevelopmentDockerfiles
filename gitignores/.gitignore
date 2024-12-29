@@ -1,10 +1,15 @@
 !.idea/codeStyles
 !.idea/runConfigurations
+!migrations/*.sql
 *$py.class
 **/*.ignore
 **/*.playground
 **/*.rs.bk
 *.cover
+*.db
+*.db-journal
+*.db3
+*.db3-journal
 *.egg
 *.egg-info/
 *.env
@@ -24,6 +29,10 @@
 *.seed
 *.so
 *.spec
+*.sqlite
+*.sqlite-journal
+*.sqlite3
+*.sqlite3-journal
 *.tgz
 *.tsbuildinfo
 .AppleDB
@@ -157,7 +166,7 @@ dmypy.json
 docs/_build/
 downloads/
 eggs/
-env.*# Created by https://www.toptal.com/developers/gitignore/api/jetbrains+all
+env.*
 env.bak/
 env/
 fabric.properties

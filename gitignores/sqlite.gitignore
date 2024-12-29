@@ -1,0 +1,14 @@
+# SQLite database files
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+
+# SQLite journal files
+*.sqlite-journal
+*.sqlite3-journal
+*.db-journal
+*.db3-journal
+
+# Ensure migrations are tracked
+!migrations/*.sql
